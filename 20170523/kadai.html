@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content="width=device-width">
+  <title>kadai</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/kadai.css">
+</head>
+
+<body>
+<div class="container">
+  <header>
+    <div class="row">
+      <div class="col-md-8 col-sm-4 col-sm-6">
+        <h1>アンケートフォーム</h1>
+      </div>
+    </div>
+  </header>
+</div><!-- container1 -->
+
+<hr>
+
+<div class="container">
+  <form action="http://h2o-space.com/html-book/sample04/" method="post"
+        class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <p>入力フォーム</p>
+      <div class="form-group">
+        <label for="name">お名前</label>
+        <input type="text" id="name" name="name" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="job">職業</label>>
+        <select id="job" name="job" class="form-control" >
+          <option value="">選択してください</option>
+          <option value="会社員">会社員</option>
+          <option value="学生">学生</option>
+          <option value="その他">その他</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>使ったプログラミング言語</label>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="q1" value="html">
+            HTML
+          </label>
+        </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="q1" value="css">
+              css
+            </label>
+          </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="q1" value="JavaScript">
+            JavaScript
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>どのくらい使っていましたか</label>
+        <div>
+          <label class="radio-inline">
+            <input type="radio" name="q2" id="q2_1" value="1">週1程度
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="q2" id="q2_2" value="2">週2程度
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="q2" id="q2_3" value="3">毎日
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="q2" id="q2_4" value="4">回答しない
+          </label>
+        </div>
+      </div>
+
+
+
+
+    </div><!-- col-sm-8 -->
+  </form>
+</div>
+<hr>
+<div class="container">
+  <footer>
+    <p>&copy; H29 Kadai</p>
+  </footer>
+</div><!--  container2 -->
+</body>
+
+</html>
